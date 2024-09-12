@@ -3,11 +3,11 @@
   "name": "Core",
 
   "colors": {
-    "editor.background": "#1e1f1e",
-    "activityBar.background": "#1e1f1e",
-    "sideBar.background": "#1e1f1e",
-    "sideBarSectionHeader.background": "#1e1f1e",
-    "sideBarSectionHeader.border": "#1e1f1e",
+    "editor.background": "#1c1d1c",
+    "activityBar.background": "#1c1d1c",
+    "sideBar.background": "#1c1d1c",
+    "sideBarSectionHeader.background": "#1c1d1c",
+    "sideBarSectionHeader.border": "#1c1d1c",
 
     "statusBar.background": "#2f2f2f",
 
@@ -17,6 +17,8 @@
 
     "editor.selectionBackground": "#1f2f2c",
     "editor.inactiveSelectionBackground": "#1f2f2ca0",
+
+    "editorCursor.foreground": "#a0d0b0",
 
     "editor.foreground": "#d4d4d4",
     "editor.selectionHighlightBackground": "#add6ff26",
