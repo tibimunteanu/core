@@ -1,0 +1,21 @@
+{
+  "name": "core",
+  "displayName": "Core",
+  "description": "NOT a Christmas tree",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Core",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Core-color-theme.json"
+      }
+    ]
+  }
+}
