@@ -11,37 +11,37 @@
 
     "statusBar.background": "#2f2f2f",
 
-    "statusBarItem.remoteBackground": "#16825D",
-    "activityBarBadge.background": "#16825D",
-    "menu.selectionBackground": "#16825D",
+    "statusBarItem.remoteBackground": "#16825d",
+    "activityBarBadge.background": "#16825d",
+    "menu.selectionBackground": "#16825d",
 
     "editor.selectionBackground": "#1f2f2c",
     "editor.inactiveSelectionBackground": "#1f2f2ca0",
 
-    "editor.foreground": "#D4D4D4",
-    "editor.selectionHighlightBackground": "#ADD6FF26",
+    "editor.foreground": "#d4d4d4",
+    "editor.selectionHighlightBackground": "#add6ff26",
 
     "sideBarTitle.foreground": "#696f69",
-    "statusBarItem.remoteForeground": "#FFF",
+    "statusBarItem.remoteForeground": "#ffffff",
 
     "tab.selectedBackground": "#222222",
     "tab.selectedForeground": "#ffffffa0",
-    "tab.lastPinnedBorder": "#ccc3",
+    "tab.lastPinnedBorder": "#cccccc",
 
-    "checkbox.border": "#6B6B6B",
-    "input.placeholderForeground": "#A6A6A6",
+    "checkbox.border": "#6b6b6b",
+    "input.placeholderForeground": "#a6a6a6",
     "ports.iconRunningProcessForeground": "#369432",
     "widget.border": "#303031",
     "actionBar.toggledBackground": "#383a49",
 
-    "list.dropBackground": "#383B3D",
-    "list.activeSelectionIconForeground": "#FFF",
+    "list.dropBackground": "#383B3d",
+    "list.activeSelectionIconForeground": "#ffffff",
 
     "editorIndentGuide.background1": "#404040",
     "editorIndentGuide.activeBackground1": "#707070",
 
     "menu.background": "#252526",
-    "menu.foreground": "#CCCCCC",
+    "menu.foreground": "#cccccc",
     "menu.separatorBackground": "#454545",
     "menu.border": "#454545"
   },
@@ -55,7 +55,6 @@
         "keyword.type.zig",
         "keyword.control",
         "keyword.operator.delete",
-        "entity.name.operator",
         "keyword - keyword.operator",
         "keyword.operator.new",
         "keyword.operator.expression",
@@ -95,6 +94,7 @@
         "storage.modifier.c",
         "storage.modifier.import.java",
         "storage.modifier.package.java",
+        "entity.name.operator",
         "support.variable.property.importmeta.tsx",
         "this.self"
       ],
@@ -105,10 +105,10 @@
     {
       "name": "Preprocessor",
       "scope": [
+        "entity.name.function.preprocessor",
         "entity.name.function.preprocessor.c",
-        "meta.preprocessor.macro.c",
         "meta.preprocessor",
-        "entity.name.function.preprocessor"
+        "meta.preprocessor.macro.c"
       ],
       "settings": {
         "foreground": "#aa88aa"
@@ -122,14 +122,14 @@
         "entity.name.tag.less",
         "entity.name.section.markdown",
         "entity.other.attribute-name.class.css",
-        "source.css entity.other.attribute-name.class",
         "entity.other.attribute-name.id.css",
         "entity.other.attribute-name.parent-selector.css",
         "entity.other.attribute-name.parent.less",
-        "source.css entity.other.attribute-name.pseudo-class",
         "entity.other.attribute-name.pseudo-element.css",
-        "source.css.less entity.other.attribute-name.id",
         "entity.other.attribute-name.scss",
+        "source.css entity.other.attribute-name.class",
+        "source.css entity.other.attribute-name.pseudo-class",
+        "source.css.less entity.other.attribute-name.id",
         "meta.selector.css",
         "keyword.operator.expression.void",
         "variable.language.relations.prisma"
@@ -207,6 +207,7 @@
         "entity.name.variable",
         "entity.other.attribute-name",
         "entity.name.fragment.graphql",
+        "entity.name.label",
         "source.glsl",
         "source.css variable",
         "source.coffee.embedded",
@@ -250,6 +251,9 @@
     {
       "name": "Literal",
       "scope": [
+        "string",
+        "string.tag",
+        "string.value",
         "constant.numeric",
         "constant.language",
         "constant.language.null",
@@ -258,15 +262,12 @@
         "constant.language.json",
         "constant.language.json.comments",
         "constant.regexp",
-        "keyword.other.unit",
-        "punctuation.definition.constant.css",
         "meta.jsx.children.tsx",
         "meta.embedded.assembly",
-        "string",
-        "string.tag",
-        "string.value",
         "meta.preprocessor.string",
-        "meta.preprocessor.numeric"
+        "meta.preprocessor.numeric",
+        "punctuation.definition.constant.css",
+        "keyword.other.unit"
       ],
       "settings": {
         "foreground": "#ce9178"
@@ -288,21 +289,6 @@
     {
       "name": "Punctuation",
       "scope": [
-        "source.zig",
-        "keyword.operator.arithmetic",
-        "keyword.operator.bitwise",
-        "keyword.operator",
-        "keyword.operator.comparison",
-        "keyword.operator.logical",
-        "keyword.operator.increment",
-        "keyword.operator.assignment",
-        "storage.modifier.array.bracket.square",
-        "storage.type.function.arrow",
-        "meta.parens.block",
-        "constant.other.placeholder",
-        "constant.language.import-export-all",
-        "meta.brace.round",
-        "meta.brace.square",
         "punctuation",
         "punctuation.section.embedded",
         "punctuation.accessor.optional",
@@ -313,6 +299,21 @@
         "punctuation.definition.tag",
         "punctuation.section.embedded.begin.php",
         "punctuation.section.embedded.end.php",
+        "meta.parens.block",
+        "meta.brace.round",
+        "meta.brace.square",
+        "keyword.operator.arithmetic",
+        "keyword.operator.bitwise",
+        "keyword.operator",
+        "keyword.operator.comparison",
+        "keyword.operator.logical",
+        "keyword.operator.increment",
+        "keyword.operator.assignment",
+        "storage.modifier.array.bracket.square",
+        "storage.type.function.arrow",
+        "constant.other.placeholder",
+        "constant.language.import-export-all",
+        "source.zig",
         "source.prisma.array",
         "source.prisma.attribute.with_arguments"
       ],
@@ -399,7 +400,7 @@
     {
       "scope": "punctuation.definition.quote.begin.markdown",
       "settings": {
-        "foreground": "#6A9955"
+        "foreground": "#6a9955"
       }
     },
     {
@@ -430,12 +431,6 @@
       "scope": "constant.sha.git-rebase",
       "settings": {
         "foreground": "#b5cea8"
-      }
-    },
-    {
-      "scope": "entity.name.label",
-      "settings": {
-        "foreground": "#C8C8C8"
       }
     }
   ],
