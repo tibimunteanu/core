@@ -12,9 +12,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Core",
+        "label": "Core-grinch",
         "uiTheme": "vs-dark",
-        "path": "./themes/Core-color-theme.json"
+        "path": "./themes/Core-grinch-color-theme.json"
+      },
+      {
+        "label": "Core-dusty",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Core-dusty-color-theme.json"
+      },
+      {
+        "label": "Core-moonlight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Core-moonlight-color-theme.json"
       }
     ]
   },
