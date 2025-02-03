@@ -1,40 +1,43 @@
 {
-  "name": "core",
-  "displayName": "Core",
-  "description": "NOT a Christmas tree",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.93.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Core-grinch",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Core-grinch-color-theme.json"
-      },
-      {
-        "label": "Core-dusty",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Core-dusty-color-theme.json"
-      },
-      {
-        "label": "Core-moonlight",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Core-moonlight-color-theme.json"
-      }
-    ]
-  },
-  "scripts": {
-    "generate": "tsx ./src/index.ts",
-    "watch": "tsx --watch ./src/index.ts"
-  },
-  "devDependencies": {
-    "@types/node": "^22.5.4",
-    "tsx": "^4.19.1",
-    "typescript": "^5.6.2"
-  }
+	"name": "core",
+	"displayName": "Core",
+	"description": "NOT a Christmas tree",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.93.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Core-grinch",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Core-grinch-color-theme.json"
+			},
+			{
+				"label": "Core-dusty",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Core-dusty-color-theme.json"
+			},
+			{
+				"label": "Core-moonlight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Core-moonlight-color-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"generate": "tsx ./src/index.ts",
+		"watch": "tsx --watch ./src/index.ts"
+	},
+	"devDependencies": {
+		"@types/node": "^22.5.4",
+		"tsx": "^4.19.1",
+		"typescript": "^5.6.2"
+	},
+	"__metadata": {
+		"size": 54585268
+	}
 }

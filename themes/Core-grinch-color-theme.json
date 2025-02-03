@@ -85,6 +85,7 @@
         "storage.modifier.package.java",
         "entity.name.operator",
         "support.variable.property.importmeta.tsx",
+        "support.variable.jai",
         "this.self"
       ],
       "settings": {
@@ -133,6 +134,8 @@
         "entity.name.type",
         "entity.name.class",
         "entity.name.namespace",
+        "entity.name.enum.jai",
+        "entity.name.struct.jai",
         "entity.other.attribute",
         "entity.name.scope-resolution",
         "entity.other.inherited-class",
@@ -149,6 +152,8 @@
         "storage.type.error.go",
         "storage.type.rune.go",
         "storage.type.cs",
+        "storage.type.jai",
+        "storage.type.struct.jai",
         "storage.type.generic.cs",
         "storage.type.modifier.cs",
         "storage.type.variable.cs",
@@ -166,6 +171,7 @@
         "storage.type.object.array.groovy",
         "storage.type.primitive.array.groovy",
         "storage.type.primitive.groovy",
+        "storage.type",
         "meta.type.cast.expr",
         "meta.type.new.expr"
       ],
@@ -181,7 +187,8 @@
         "support.function",
         "support.constant.handlebars",
         "source.powershell variable.other.member",
-        "entity.name.operator.custom-literal"
+        "entity.name.operator.custom-literal",
+        "keyword.other.main.jai"
       ],
       "settings": {
         "foreground": "#ddbb77"
@@ -228,6 +235,7 @@
       "name": "Enum",
       "scope": [
         "variable.other.enummember",
+        "variable.enum.jai",
         "meta.property-value.css",
         "support.constant.property-value.css",
         "support.constant.font-name.css",
@@ -256,7 +264,8 @@
         "meta.preprocessor.string",
         "meta.preprocessor.numeric",
         "punctuation.definition.constant.css",
-        "keyword.other.unit"
+        "keyword.other.unit",
+        "punctuation.definition.string.import.begin.jai"
       ],
       "settings": {
         "foreground": "#ce9178"
@@ -298,13 +307,17 @@
         "keyword.operator.logical",
         "keyword.operator.increment",
         "keyword.operator.assignment",
+        "keyword.operator.jai",
+        "keyword.declaration.jai",
         "storage.modifier.array.bracket.square",
         "storage.type.function.arrow",
         "constant.other.placeholder",
         "constant.language.import-export-all",
         "source.zig",
         "source.prisma.array",
-        "source.prisma.attribute.with_arguments"
+        "source.prisma.attribute.with_arguments",
+        "punctuation.section.braces.start.jai",
+        "punctuation.section.braces.end.jai"
       ],
       "settings": {
         "foreground": "#919f89"
@@ -418,6 +431,14 @@
       "scope": "constant.sha.git-rebase",
       "settings": {
         "foreground": "#b5cea8"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter.jai"
+      ],
+      "settings": {
+        "foreground": "#d0c5a0"
       }
     }
   ],

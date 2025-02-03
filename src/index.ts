@@ -174,6 +174,7 @@ const getTheme = (colors: Colors) => ({
         "storage.modifier.package.java",
         "entity.name.operator",
         "support.variable.property.importmeta.tsx",
+        "support.variable.jai",
         "this.self",
       ],
       settings: {
@@ -222,6 +223,8 @@ const getTheme = (colors: Colors) => ({
         "entity.name.type",
         "entity.name.class",
         "entity.name.namespace",
+        "entity.name.enum.jai",
+        "entity.name.struct.jai",
         "entity.other.attribute",
         "entity.name.scope-resolution",
         "entity.other.inherited-class",
@@ -238,6 +241,8 @@ const getTheme = (colors: Colors) => ({
         "storage.type.error.go",
         "storage.type.rune.go",
         "storage.type.cs",
+        "storage.type.jai",
+        "storage.type.struct.jai",
         "storage.type.generic.cs",
         "storage.type.modifier.cs",
         "storage.type.variable.cs",
@@ -255,6 +260,7 @@ const getTheme = (colors: Colors) => ({
         "storage.type.object.array.groovy",
         "storage.type.primitive.array.groovy",
         "storage.type.primitive.groovy",
+        "storage.type",
         "meta.type.cast.expr",
         "meta.type.new.expr",
       ],
@@ -271,6 +277,7 @@ const getTheme = (colors: Colors) => ({
         "support.constant.handlebars",
         "source.powershell variable.other.member",
         "entity.name.operator.custom-literal",
+        "keyword.other.main.jai",
       ],
       settings: {
         foreground: colors.function,
@@ -317,6 +324,7 @@ const getTheme = (colors: Colors) => ({
       name: "Enum",
       scope: [
         "variable.other.enummember",
+        "variable.enum.jai",
         "meta.property-value.css",
         "support.constant.property-value.css",
         "support.constant.font-name.css",
@@ -346,6 +354,7 @@ const getTheme = (colors: Colors) => ({
         "meta.preprocessor.numeric",
         "punctuation.definition.constant.css",
         "keyword.other.unit",
+        "punctuation.definition.string.import.begin.jai",
       ],
       settings: {
         foreground: colors.literal,
@@ -387,6 +396,8 @@ const getTheme = (colors: Colors) => ({
         "keyword.operator.logical",
         "keyword.operator.increment",
         "keyword.operator.assignment",
+        "keyword.operator.jai",
+        "keyword.declaration.jai",
         "storage.modifier.array.bracket.square",
         "storage.type.function.arrow",
         "constant.other.placeholder",
@@ -394,6 +405,8 @@ const getTheme = (colors: Colors) => ({
         "source.zig",
         "source.prisma.array",
         "source.prisma.attribute.with_arguments",
+        "punctuation.section.braces.start.jai",
+        "punctuation.section.braces.end.jai",
       ],
       settings: {
         foreground: colors.punctuation,
@@ -509,6 +522,12 @@ const getTheme = (colors: Colors) => ({
       scope: "constant.sha.git-rebase",
       settings: {
         foreground: "#b5cea8",
+      },
+    },
+    {
+      scope: ["variable.parameter.jai"],
+      settings: {
+        foreground: colors.parameter,
       },
     },
   ],
