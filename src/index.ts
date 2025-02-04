@@ -260,7 +260,6 @@ const getTheme = (colors: Colors) => ({
         "storage.type.object.array.groovy",
         "storage.type.primitive.array.groovy",
         "storage.type.primitive.groovy",
-        "storage.type",
         "meta.type.cast.expr",
         "meta.type.new.expr",
       ],
